@@ -1,4 +1,5 @@
 # MapReduce lab-1
+Собрать групповую статистику из лог-файла с помощью MapReduce, предварительно развернув Hadoop кластер из 4 машин с помощью Cloudera Manager
 
 ## Local launch:
 ```

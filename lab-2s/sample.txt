@@ -1,0 +1,8 @@
+284857487491	1423686625.546	http%3A%2F%2Fwww.mk.ru%2Fnews%2F
+284857487491	1423686624.546	http%3A%2F%2Fwww.google.de%2Furl%3Fsa%3Dt%26rct%3Dj%26q%3D%25D0%25BD%25D0%25BE%25D0%25B2%25D0%25BE%25D1%2581%25D1%2582%25D0%25B8%26source%3Dweb%26cd%3D3%26ved%3D0CC8QFjAC%26url%3Dhttp%253A%252F%252Fwww.mk.ru%252Fnews%252F%26ei%3DxrvbVJjIDcf4OuLsgMgM%26usg%3DAFQjCNFl7lI9Qs-CXg5XKpBxfpFAFHK59A%26bvm%3Dbv.85761416%2Cd.ZWU
+297719401263	1423686625.547	http%3A%2F%2Fpoint.md%2Fru%2Fnovosti%2Fv-mire%2Fukraina-otgorazhivaetsya-ot-krima-protivotankovim-rvom
+297719401263	1423686624.547	http%3A%2F%2Fpoint.md%2Fru%2F
+317010057054	1423686625.551	http%3A%2F%2Fwww.bibika.ru%2Fretro_60.php
+317010057054	1423686624.551	http%3A%2F%2Fwww.bibika.ru%2Fretro_50.php
+316379104276	1423686625.559	https%3A%2F%2Fwww.olimpkz.com%2Findex.php%3Fpage%3Dline%26action%3D1%26live%3D1
+316379104276	1423686624.559	https%3A%2F%2Fwww.olimpkz.com%2Findex.php%3Fpage%3Dline%26action%3D1%26live%3D1

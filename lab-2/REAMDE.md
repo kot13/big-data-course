@@ -1,4 +1,5 @@
 # MapReduce & HBase
+Загрузить данные в HBase из большого лог-файла, лежащего в Azure Blob с помощью MapReduce
 
 ## Create hbase table
 ```
@@ -22,7 +23,7 @@ $ hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-streaming.jar
 -mapper "python mapper.py" 
 ```
 
-## See result
+## See results
 ```
 $ hbase shell
 
