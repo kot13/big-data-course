@@ -5,7 +5,7 @@ import urllib
 
 
 def url2domain(url):
-   try:
+    try:
        a = urlparse.urlparse(urllib.unquote(url.strip()))
        if (a.scheme in ['http','https']):
            b = re.search("(?:www\.)?(.*)", a.netloc).group(1)
@@ -15,7 +15,7 @@ def url2domain(url):
                return ''
        else:
            return ''
-   except:
+    except:
        return
 
 for line in sys.stdin:
@@ -29,4 +29,9 @@ for line in sys.stdin:
     if data[2] == "" or data[2] == "-":
         continue
 
-    sys.stdout.write(data[0] + "\t" + url2domain(data[2]) + "\n")
+    host = url2domain(data[2])
+
+    if host == "" or host is None:
+        continue
+
+    sys.stdout.write(data[0] + "\t" + host + "\n")

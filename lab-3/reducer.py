@@ -29,6 +29,14 @@ def isPoliticsuserByVisits(visits):
     return "0"
 
 
+def formatOutputLine(prevUser, currentUserVisits):
+    return prevUser + "\t" + \
+           isAutouserByVisits(currentUserVisits) + "\t" + \
+           isYoungparentuserByVisits(currentUserVisits) + "\t" + \
+           isPregnantuserByVisits(currentUserVisits) + "\t" + \
+           isPoliticsuserByVisits(currentUserVisits) + "\n"
+
+
 prevUser = None
 currentUserVisits = {}
 
@@ -40,11 +48,7 @@ for line in sys.stdin:
 
     if currentUser != prevUser and prevUser is not None:
         sys.stdout.write(
-            prevUser + "\t" +
-            isAutouserByVisits(currentUserVisits) + "\t" +
-            isYoungparentuserByVisits(currentUserVisits) + "\t" +
-            isPregnantuserByVisits(currentUserVisits) + "\t" +
-            isPoliticsuserByVisits(currentUserVisits) + "\n"
+            formatOutputLine(prevUser, currentUserVisits)
         )
         currentUserVisits = {}
 
@@ -56,9 +60,5 @@ for line in sys.stdin:
     prevUser = currentUser
 
 sys.stdout.write(
-    prevUser + "\t" +
-    isAutouserByVisits(currentUserVisits) + "\t" +
-    isYoungparentuserByVisits(currentUserVisits) + "\t" +
-    isPregnantuserByVisits(currentUserVisits) + "\t" +
-    isPoliticsuserByVisits(currentUserVisits) + "\n"
+    formatOutputLine(prevUser, currentUserVisits)
 )
