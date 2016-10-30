@@ -1,0 +1,8 @@
+mediametrics.ru	3
+inosmi.ru	3
+yandex.ru	1.5
+sp.krasmama.ru	1.5
+forum.omskmama.ru	0.3
+vodvore.net	0.21428571428571428571
+avto-russia.ru	0.12000000000000000000
+echo.msk.ru	0.11538461538461538461

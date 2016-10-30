@@ -1,0 +1,8 @@
+avto-russia.ru	25	2
+echo.msk.ru	26	3
+forum.omskmama.ru	10	0
+inosmi.ru	1	1
+mediametrics.ru	1	0
+sp.krasmama.ru	2	0
+vodvore.net	14	2
+yandex.ru	2	2
