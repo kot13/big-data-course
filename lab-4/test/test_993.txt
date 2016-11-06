@@ -1,0 +1,1 @@
+<p><strong>Обязанности</strong>:</p> <ul> <li>разработка по нашим ТЗ</li> </ul> <p><strong>Требования</strong>:</p> <ul> <li>знание php, желательно CMS Битрикс</li> </ul> <p><strong>Условия</strong>:</p> <ul> <li>фриланс</li> </ul>
